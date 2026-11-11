@@ -1,0 +1,12 @@
+{
+  "name": "finara",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Finara — a fully functional demo online-banking web app, built as a System Under Test for the STLC automation pipeline.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

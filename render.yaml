@@ -1,0 +1,13 @@
+# Render blueprint — deploy Finara as a free web service.
+# 1) Push this repo to GitHub.  2) On render.com → New → Blueprint → pick the repo.
+services:
+  - type: web
+    name: finara
+    runtime: node
+    plan: free
+    buildCommand: "echo no build needed"
+    startCommand: node server.js
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+    healthCheckPath: /health

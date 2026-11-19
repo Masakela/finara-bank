@@ -1,7 +1,6 @@
+# Credentials & local data — never commit
+.env
+wallet/
 node_modules/
-auth.json
+*.sqlite
 *.log
-site-map*.json
-render.js
-r2.js
-.DS_Store

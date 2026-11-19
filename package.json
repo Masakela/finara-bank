@@ -1,10 +1,13 @@
 {
   "name": "finara",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
-  "description": "Finara — a fully functional demo online-banking web app, built as a System Under Test for the STLC automation pipeline.",
+  "description": "Finara — a demo online-banking web app on a relational database (SQLite locally, PostgreSQL in production), built as a System Under Test for the STLC automation pipeline.",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.13.1"
   },
   "engines": {
     "node": ">=18"
